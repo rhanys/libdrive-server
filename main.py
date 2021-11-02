@@ -21,7 +21,7 @@ import src.functions.tests
 
 colorama.init()
 print(
-    "====================================================\n\033[96m               libDrive - v1.4.4\033[94m\n                   @eliasbenb\033[0m\n====================================================\n"
+    "====================================================\n\033[96m               libDrive - v1.4.4\033[94m\n                   \033[0m\n====================================================\n"
 )
 
 print("\033[32mREADING CONFIG...\033[0m")
@@ -116,7 +116,7 @@ def threaded_metadata():
                 {
                     "code": 500,
                     "content": None,
-                    "message": "libDrive is already building metadata, please wait.",
+                    "message": "libDrive já está criando os metadados, por favor aguarde.",
                     "success": False,
                 },
                 500,
@@ -137,7 +137,7 @@ def threaded_metadata():
         {
             "code": 200,
             "content": None,
-            "message": "libDrive is building your new metadata.",
+            "message": "libDrive está criando seus novos metadados.",
             "success": True,
         },
         200,
