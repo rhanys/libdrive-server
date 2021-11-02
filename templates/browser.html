@@ -23,7 +23,7 @@
       </div>
       <div class="col-xs-12 col-sm-5 col-md-4 col-sm-offset-7 col-md-offset-8 pull-sm-right">
         <div class="form-group">
-            <label class="form-control-label sr-only" for="listr-search">Search</label>
+            <label class="form-control-label sr-only" for="listr-search">Buscar</label>
             <input type="text" id="listr-search" class="form-control" placeholder="Search">
         </div>
       </div>
@@ -31,9 +31,9 @@
         <div class="btn-group">
           <a data-toggle="modal" data-target="#uploader-modal" class="btn btn-secondary text-muted">Upload</a>
           {% if hide_dotfile == 'yes' %}
-          <a href="?secret={{secret}}&hide-dotfile=no" class="btn btn-secondary text-muted">Show Dotfiles</a>
+          <a href="?secret={{secret}}&hide-dotfile=no" class="btn btn-secondary text-muted">Mostrar Arquivos de Configuração</a>
           {% else %}
-          <a href="?secret={{secret}}&hide-dotfile=yes" class="btn btn-secondary text-muted">Hide Dotfiles</a>
+          <a href="?secret={{secret}}&hide-dotfile=yes" class="btn btn-secondary text-muted">Esconter Arquivos de Configuração</a>
           {% endif %}
         </div>
       </div>
@@ -42,9 +42,9 @@
       <table id="listr-table" class="table table-hover">
         <thead>
           <tr>
-            <th class="text-xs-left " data-sort="string">Name</th>
-            <th class="text-xs-right " data-sort="int">Size</th>
-            <th class="text-xs-right " data-sort="int">Modified</th>
+            <th class="text-xs-left " data-sort="string">Nome</th>
+            <th class="text-xs-right " data-sort="int">Tamanho</th>
+            <th class="text-xs-right " data-sort="int">Última Modificação</th>
           </tr>
         </thead>
         <tfoot>
@@ -85,10 +85,10 @@
           <div class="modal-body"></div>
           <div class="modal-footer">
             <div class="pull-xs-left">
-              <button type="button" class="btn btn-link highlight hidden-xs-up">Apply syntax highlighting</button>
+              <button type="button" class="btn btn-link highlight hidden-xs-up">Aplicar destaque de sintaxe</button>
             </div>
             <div class="pull-xs-right">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
 
               <div class="btn-group">
                 <a href="#" class="btn btn-primary fullview" download>Download</a>
@@ -109,7 +109,7 @@
           </div>
           <div class="modal-footer">
             <div class="pull-xs-right">
-              <button type="button" id="close-uploader" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" id="close-uploader" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
             </div>
           </div>
         </div>
