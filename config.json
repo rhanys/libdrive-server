@@ -1,0 +1,57 @@
+{
+  "access_token":"ya29.A0ARrdaM8gr8jxo5JNOpPpCM7R_JrrOYSYrXjrGhxJzzT-v42jXdmTAOI8t5OiuPk9hvDAnd0fMuNFZsIzsf5Uv1YSExqhacZMi7aJ6SLcRVBPBueB9cl4hRyuZIMFtjNFDhwZ9BMdVpGiByNjcLyvf-s4UA0M",
+  "account_list":[
+     {
+        "username":"rhanys",
+        "password":"Rha10236",
+        "pic":"",
+        "auth":"nsv1glyylge39pkwk5kc3it0g3rp2ti50v3zfzxvnwozea2kr1"
+     }
+  ],
+  "adult":"false",
+  "arcio":"dev",
+  "auth":"false",
+  "build_interval":360,
+  "build_type":"hybrid",
+  "category_list":[
+     {
+        "adult":false,
+        "anilist":false,
+        "id":"1CpLI91qIkhcdXDhARncEsnlIlCdc2dZQ",
+        "language":"pt",
+        "name":"Filmes -  Ação",
+        "type":"Movies"
+     },
+     {
+        "adult":false,
+        "anilist":false,
+        "id":"1CIfLhWeWNAD25AsyrKqheNJ-K4Cw-acB",
+        "language":"pt",
+        "name":"Filmes - Nacional",
+        "type":"Movies"
+     }
+  ],
+  "client_id":"167145317740-k1gi7hc5rsadpl04k29ri0grata5c0dk.apps.googleusercontent.com",
+  "client_secret":"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",
+  "cloudflare":"",
+  "fetch_assets":"false",
+  "refresh_token":"1//0hfcmyRTI5milCgYIARAAGBESNwF-L9IrvjgMr5RlI64fxfuOHLCubALZjx87WqIH-tEtnxeLLlzTIoH7b3z4HfYh8m9FTV7YIU4",
+  "remove_duplicates":"false",
+  "remove_no_poster":"false",
+  "secret_key":"Rha1023696437090ea6249e6f880fcfaee749254",
+  "tmdb_api_key":"96437090ea6249e6f880fcfaee749254",
+  "token_expiry":"",
+  "prefer_mkv":"false",
+  "prefer_mp4":"true",
+  "transcoded":"true",
+  "service_accounts":[
+     
+  ],
+  "signup":"false",
+  "ui_config":{
+     "custom_button":{
+        
+     },
+     "title":"Rhanyboy Flix"
+  }
+}
