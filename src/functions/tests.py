@@ -5,6 +5,8 @@ import requests
 
 
 def tmdb_test(config):
+    print("\033[31m DEBUG TMDB_API_KEY \033[0m")
+    print(config.get("tmdb_api_key"))
     if config.get("tmdb_api_key") != None and config.get("tmdb_api_key") != "":
         res = requests.get(
             "https://api.themoviedb.org/3/?api_key=%s" % (config.get("tmdb_api_key"))
